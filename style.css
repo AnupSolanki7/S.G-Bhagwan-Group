@@ -1,0 +1,311 @@
+a {
+  text-decoration: none;
+  transition: all 1s;
+}
+
+/* ---------------------Global ----------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space;
+  background-image: url(./Assets/bg-07.png);
+}
+
+.ul-container {
+  justify-content: right;
+  text-align: center;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: azure;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+/* ---x--------------------------NavBar ------------------------------x */
+
+/* -------------------------------Carousel--------------------------------- */
+.carousel-caption {
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-caption .cla {
+  background-color: rgba(255, 255, 255, 0.342);
+  height: 150px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10% 0 40%;
+  justify-content: flex-end;
+}
+
+.cla .card-back {
+  position: absolute;
+  background-color: rgb(0 0 0 / 54%);
+  width: 250px;
+  height: 180px;
+  border-radius: none;
+  top: -55%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/* ---------------------------Services------------------------------- */
+.services {
+  padding: 50px 0;
+}
+.services .card {
+  background-image: url(./Assets/bg-06.png) !important;
+  background-repeat: no-repeat;
+  background-color: rgba(2, 2, 2, 0.808) !important;
+  background-size: contain;
+  padding: 10px 30px;
+}
+
+.services .card a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: aqua;
+}
+
+.services .card-1 {
+  padding-bottom: 60px;
+  height: 100%;
+}
+.services .card-2 {
+  margin-bottom: 10px;
+  height: 48%;
+}
+
+.services .info {
+  margin-top: 25px;
+}
+.services button {
+  width: 100px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: aqua;
+  background-color: rgba(2, 2, 2, 0.808);
+}
+/* --------------------------Explore-------------------------------- */
+
+.explore {
+  padding: 50px 0;
+}
+.explore .container {
+  margin-top: 50px;
+}
+
+.explore .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: all ease 1s;
+  border-radius: 0 !important;
+  height: 100%;
+}
+
+.explore .card-icon {
+  position: relative;
+  background-color: aqua;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.explore i {
+  position: relative;
+  top: 30%;
+}
+.explore .read-more {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.explore .read {
+  width: 100%;
+  text-align: center;
+}
+.explore .arrow {
+  width: 100%;
+  text-align: center;
+}
+.explore .horizontal {
+  border: 0.5px solid;
+  width: 80%;
+}
+.explore .vertical {
+  border: 0.5px solid;
+  height: 20px;
+}
+
+.explore .card p {
+  font-weight: 500;
+}
+
+.explore .info {
+  margin-bottom: 30px;
+}
+
+.explore .info h4 {
+  font-weight: 800;
+}
+
+.explore .card-1:hover {
+  background-image: url(./Assets/explore1.jpg);
+  color: white;
+  background-size: cover;
+}
+
+.explore .card-1:hover a {
+  color: white !important;
+}
+
+.explore .card-2:hover {
+  background-image: url(./Assets/explore2.jpg);
+  color: white;
+  background-size: cover;
+}
+
+.explore .card-2:hover a {
+  color: white !important;
+}
+
+.explore .card-3:hover {
+  background-image: url(./Assets/explore3.jpg);
+  color: white;
+  background-size: cover;
+}
+
+.explore .card-3:hover a {
+  color: white !important;
+}
+/* ------------------------------Latest Projects--------------------------- */
+
+.projects{
+    margin:50px 0;
+}
+
+.projects .info{
+    margin-bottom: 50px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 255, 255, 0.562);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.projects .text {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ---------------------------Maps--------------------------------- */
+iframe {
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+/* --------------------------Footer---------------------------- */
+footer {
+  padding: 3rem 3rem 0 3rem;
+  background-image: url(./Assets/bg-07.png);
+  background-repeat: inherit;
+  background-size: contain;
+  background-position: 10px;
+}
+
+footer input {
+  height: 25px;
+}
+footer .btn {
+  padding: 0 !important;
+  padding: 0 5px !important;
+  height: 25px;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+/* -------------------------------Media Querry----------------------------- */
+
+@media only screen and (max-width: 900px) {
+  .carousel-caption {
+    position: relative;
+  }
+  .cla .card-back {
+    top: 0%;
+    height: 150px;
+  }
+  .cla h4 {
+    color: black;
+  }
+  .cla {
+    padding: 0% !important;
+    padding-left: 42% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card-back {
+    left: 0% !important;
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    flex-direction: row !important;
+  }
+  .card-back p {
+    display: none;
+  }
+  .cla {
+    padding: 0% !important;
+    background-color: rgb(181 173 173 / 34%) !important;
+    flex-direction: column !important;
+    height: 120px !important;
+  }
+  .cla h4 {
+    font-size: 15px;
+  }
+}
